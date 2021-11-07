@@ -1,0 +1,24 @@
+1) Data Collection 
+   --> glassdoor_jobs.csv (Dataset: Salaries of data scientist jobs in USA - Year 2020)
+
+2) Data cleaning 
+   --> using glassdoor_jobs.csv
+   --> data_cleaning.ipynb 
+   --> produces salary_data_cleaned.csv
+
+3) Exploratory Data Analysis 
+   --> using salary_data_cleaned.csv
+   --> data_eda.ipynb 
+   --> produces eda_data.csv
+
+4) Model Building 
+   --> using eda_data.csv
+   --> produces model_file.pkl
+   
+5) Model Deployment 
+   --> on localhost using Flask API
+   --> run webserver with command: python wsgi.py
+   --> establish client connection: request_server.ipynb
+
+6) Documentation
+   --> README.md
