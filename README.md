@@ -52,7 +52,16 @@ After scraping the data, the data was cleaned it up to make it usable for the mo
 ## Exploratory Data Analysis (EDA)
 I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from the pivot tables. 
 
-HIghlights
+**Correlation Visual**<br>
+![correlation visual](https://user-images.githubusercontent.com/64092765/140649182-b6c08a8b-0548-4180-8382-512e59b604c6.png)<br>
+**Salary by Job Title**<br>
+![Salary by Job Title](https://user-images.githubusercontent.com/64092765/140649205-4d0506d1-fae7-486c-bfb3-1030f126de5f.png)<br>
+**Positions by Sector**<br>
+![Positions by Sector](https://user-images.githubusercontent.com/64092765/140649199-a40f1604-80c2-4944-97d7-f17e56caf6b6.png)<br>
+**Positions by State**<br>
+![Positions by State](https://user-images.githubusercontent.com/64092765/140649203-98ecc37d-a1e5-484f-a7be-2bc007897a16.png)<br>
+
+
 
 
 ## Model Building 
@@ -71,6 +80,9 @@ The Random Forest model outperformed the other models on the test and validation
 *	**Multiple Linear Regression**: MAE (Mean absolute error) = 38668910.50
 *	**Lasso Regression**: MAE = 19.09
 *	**Random Forest**: MAE = 12.25
+
+**RandomForestRegressor (MAE)**<br>
+![RandomForestRegressor - MAE](https://user-images.githubusercontent.com/64092765/140649204-aafa7314-1d53-4248-bd29-7034d2d13f86.png)
 
 ## Model Deployment
 In this step, a flask API endpoint was hosted on a local webserver. API endpoint takes in a request with a list of values from a job listing and returns an estimated salary. 
