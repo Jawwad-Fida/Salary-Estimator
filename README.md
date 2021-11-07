@@ -8,7 +8,7 @@
 ## Code and Resources Used 
 **Python Version:** 3.7.11  
 **Packages:** numpy, pandas, sklearn, matplotlib, seaborn, pickle, flask, json  
-**Project Idea and Dataset from [Ken Jee](https://www.linkedin.com/in/kenjee/) 
+**Project Idea and Dataset from:** [Ken Jee](https://www.linkedin.com/in/kenjee/) <br>
 **For Web Framework Requirements:**  ```pip install -r requirements.txt```  
 **Model Deployment using Flask:** https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2
 
